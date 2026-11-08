@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Changeling Natio: your face, born somewhere else in the world</title>
+<meta name="description" content="Changeling Natio: your face as it might look born somewhere else in the world, with StyleGAN2, e4e and pivotal tuning. Part of the Changeling family.">
+<meta name="color-scheme" content="dark">
+<meta property="og:title" content="Changeling Natio">
+<meta property="og:description" content="Your face, born somewhere else in the world.">
+<meta property="og:image" content="assets/natio_samples.jpg">
+<link rel="icon" href="https://cursedprograms.github.io/Changeling-Studio/site/icon.svg">
+<link rel="stylesheet" href="https://cursedprograms.github.io/Changeling-Studio/site/changeling.css">
+</head>
+<body data-changeling="Natio">
+
+<header>
+  <div class="wrap">
+    <img src="https://cursedprograms.github.io/Changeling-Studio/site/logo.svg" alt="The Changeling logo" width="110" height="110">
+    <div class="eyebrow">Changeling</div>
+    <h1>Natio</h1>
+    <p class="tagline">Your face, born somewhere else in the world</p>
+    <p class="lede"><em>Natio</em> is Latin for where you were born. The Romans knew people by their <em>natio</em>, the
+      place and people they came from, not by "race". Natio shows your face as it might look from another part of the
+      world: made for curiosity, and for seeing how much of a face is shared.</p>
+    <div class="cta">
+      <a class="btn primary" href="https://github.com/CursedPrograms/Changeling-Natio">View on GitHub</a>
+      <a class="btn" href="#use">Use it</a>
+      <a class="btn" href="#family">The Changeling family</a>
+    </div>
+    <div class="tags">
+      <span class="tag">StyleGAN2</span><span class="tag">e4e</span><span class="tag">Pivotal tuning</span>
+      <span class="tag">CUDA</span><span class="tag">Python</span>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <section id="samples">
+    <h2>What it looks like</h2>
+    <p>Each row: a person, then that person moved towards African, European and East Asian, at Balanced quality. A face
+      asked for a look it already has barely changes. Every face is an AI-generated person who doesn't exist. Click to
+      enlarge.</p>
+    <figure class="sheet"><img id="sheet" src="assets/natio_samples.jpg" alt="Three people, each next to themselves moved towards African, European and East Asian" width="1600" height="1220" loading="lazy"></figure>
+  </section>
+
+  <section id="use">
+    <h2>Use it</h2>
+    <ol class="steps">
+      <li>Python 3.9 - 3.12; an NVIDIA GPU (4 GB is enough).</li>
+      <li>Start <code>run.bat</code> (or <code>run.ps1</code>, <code>run.sh</code>). Next to Changeling Tiresias or Chronos it borrows their models.</li>
+      <li><strong>Open photo</strong>, pick <strong>Towards</strong> and the strength, press <strong>Change</strong>.</li>
+    </ol>
+    <figure class="sheet"><img src="assets/window.png" alt="Changeling Natio's window" width="1280" height="780" loading="lazy"></figure>
+  </section>
+
+  <section id="limits">
+    <h2>Its limits</h2>
+    <p>Three coarse directions StyleGAN2 learned (African, European, East Asian); most of the world (South Asia, the
+      Middle East, North Africa, the Americas, the Pacific, and everyone in between) has no direction of its own. Natio
+      moves a face to where faces from a region typically sit, never past it, opens the eyes the East Asian direction
+      would close, and holds gender, so it doesn't turn into a caricature. Use it on yourself, on generated people, or on
+      people who agreed; not to mock anyone.</p>
+  </section>
+
+  <section id="family"></section>
+</main>
+
+<div id="lightbox" class="lightbox" hidden><img alt=""></div>
+
+<footer id="site-footer">&copy; Cursed Entertainment 2026</footer>
+<script src="https://cursedprograms.github.io/Changeling-Studio/site/family.js"></script>
+<script src="https://cursedprograms.github.io/RIFT/site/footer.js"></script>
+</body>
+</html>
