@@ -21,13 +21,13 @@
 [Tiresias](https://github.com/CursedPrograms/Changeling-Tiresias) (gender) ·
 [Chronos](https://github.com/CursedPrograms/Changeling-Chronos) (age) ·
 **Natio** (where in the world) ·
-[Cosmetics](https://github.com/CursedPrograms/Changeling-Cosmetics) (makeup, hair, beards) ·
+[Cosmeta](https://github.com/CursedPrograms/Changeling-Cosmeta) (makeup, hair, beards) ·
 [Echo](https://github.com/CursedPrograms/Changeling-Echo) (voices) ·
 [Tonsor](https://github.com/CursedPrograms/Changeling-Tonsor) (hairstyles) ·
 realtime: [Tiresias](https://github.com/CursedPrograms/Changeling-Tiresias-Realtime) ·
 [Chronos](https://github.com/CursedPrograms/Changeling-Chronos-Realtime) ·
 [Natio](https://github.com/CursedPrograms/Changeling-Natio-Realtime) ·
-[Cosmetics](https://github.com/CursedPrograms/Changeling-Cosmetics-Realtime).*
+[Cosmeta](https://github.com/CursedPrograms/Changeling-Cosmeta-Realtime).*
 
 Your face as it might look if you'd been born somewhere else in the world. *Natio* is Latin for where you were
 born (from *nasci*, to be born); the Romans had no idea of "race" as we use it: they knew people by their
