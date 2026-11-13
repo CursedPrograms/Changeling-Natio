@@ -1,4 +1,4 @@
-"""window.py - Changeling Natio's window, in Changeling's look (customtkinter, the Cursed pink).
+"""window.py - Changeling Natio's window, in Changeling's look (customtkinter, the Atelier blue).
 
 Open a photo, pick where in the world (African, European, East Asian) and how far, press Change. The work runs
 on its own thread, with a completion bar while it learns your face (Balanced and Best fine-tune the generator on
@@ -22,7 +22,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 TAGLINE = "your face, born somewhere else in the world"
 GITHUB = "https://github.com/CursedPrograms/Changeling-Natio"
 KOFI = "https://ko-fi.com/cursedentertainment"
-PINK = "#e0408a"
+PINK = "#007bb7"
 
 BLUE, BLUE_HOVER = "#007ab7", "#005184"     # the Cursed site's blue: the important buttons, and "male"
 
@@ -211,7 +211,7 @@ class Window:
         links = ctk.CTkFrame(foot, fg_color="transparent")
         links.pack(anchor="w")
         for text, url in (("GitHub", GITHUB), ("Ko-fi", KOFI)):
-            l = ctk.CTkLabel(links, text=text, text_color=("#c2186b", "#f29cc0"), cursor="hand2")
+            l = ctk.CTkLabel(links, text=text, text_color=("#005184", "#34a9e3"), cursor="hand2")
             l.pack(side="left", padx=(0, 14))
             l.bind("<Button-1>", lambda e, u=url: webbrowser.open(u))
         ctk.CTkLabel(foot, text="© Cursed Entertainment 2026", text_color="gray45").pack(anchor="w")
